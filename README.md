@@ -7,7 +7,6 @@ Effortless heatmap generation in Python: Focus on your data, not the plotting co
 * **Split & Gap Customization**: Split heatmaps into clusters with customizable gaps and split borders.
 * **Comprehensive Annotations**: Add discrete or continuous annotation bars on all four sides (Top, Bottom, Left, Right).
 * **Dendrogram Customization**: Adjustable tree height, line width, and color schemes.
-* **Refined Aesthetics**: Thinner default cell borders (0.02) for cleaner visuals and flexible label positioning (e.g., row names on left or right).
 * **Data Preprocessing**: Built-in row/column scaling and K-means clustering integration.
 
 ![](./figures/Annotation_Heatmap.png)
