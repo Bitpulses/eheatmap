@@ -23,3 +23,30 @@ cd overlapviz
 # Install
 pip install .
 ```
+## Basic Usage
+```
+from eheatmap import eheatmap
+
+fig = eheatmap(
+    df,
+    scale="row",                    # Row Z-score normalization
+    cutree_rows=3,                  # Split rows into 3 clusters
+    cutree_cols=3,                  # Split columns into 3 groups
+    annotation_row=row_anno,        # Row annotations
+    annotation_col=col_anno,        # Column annotations
+    annotation_colors=annotation_colors,  # Custom color mapping
+    color="viridis",                # CNS-recommended colormap
+    center=0,                       # Color center point
+    border_color="grey80",          # Cell border color
+    fontsize=9,
+    dendrogram_linewidth=1,
+    treeheight_col=20,
+    treeheight_row=20,
+    dendrogram_colors="colorful",
+    split_border_color="black",     # Split line color
+    split_border_width=1.0,
+    legend=True,
+    annotation_legend=True,
+    main="Annotation Heatmap"
+)
+```
