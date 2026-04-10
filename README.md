@@ -25,6 +25,7 @@ pip install .
 ```
 ## Basic Usage
 ```
+import matplotlib.pyplot as plt
 from eheatmap import eheatmap
 
 fig = eheatmap(
