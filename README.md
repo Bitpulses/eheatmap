@@ -12,3 +12,14 @@ The development of this tool was inspired by PyComplexHeatmap and the R package 
 * **Data Preprocessing**: Built-in row/column scaling and K-means clustering integration.
 
 ![](./figures/Annotation_Heatmap.png)
+
+## Install
+```
+# Clone or navigate to the project directory
+git clone https://github.com/Bitpulses/eheatmap.git
+
+cd overlapviz
+
+# Install
+pip install .
+```
