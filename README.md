@@ -1,7 +1,7 @@
 # eheatmap
 Effortless heatmap generation in Python: Focus on your data, not the plotting code. It provides extensive control over clustering, annotations, color mapping, and layout, making it ideal for scientific data visualization and publication-ready figures.
 
-The development of this tool was inspired by PyComplexHeatmap and the R package pheatmap. We would like to express our gratitude to all the developers and maintainers of these two projects.
+The development of this tool was inspired by [PyComplexHeatmap]() and the R package [pheatmap](). We would like to express our gratitude to all the developers and maintainers of these two projects.
 
 ## ✨ Features
 
